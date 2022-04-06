@@ -1,0 +1,250 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  X                    CSS ROOT SETTINGS                      X   
+  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Smooch Sans', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,700;1,800&family=Smooch+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+
+html {
+  scroll-behavior: smooth;
+  direction: ltr;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size:20px;
+}
+
+
+:root {
+  /* **************font family*************/
+  --body-font: "JetBrains Mono", monospace;
+
+  /*========== Font and typography ==========*/
+  --biggest-font-size: 3rem;
+  --bigger-font-size: 2.5rem;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
+  --smaller-font-size: 0.5rem;
+  --line-height: 1.5;
+
+
+  /*========== Colors ==========*/
+/*
+hsl(0, 0%, 78%)*/
+  --title-color: hsl(0, 0%, 98%);
+  --text-color: hsl(0, 0%, 81%); /* 	#cfcfcf */
+  --text-color-dark:hsl(0, 0%, 70%);
+  --text-color-light: hsl(0, 0%, 93%);
+  --bg-color: #000000;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-bolder: 800;
+
+
+}
+
+
+
+
+/*=============== RESET CSS ===============*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,p,figure,picture {
+  margin: 0;
+  padding: 0;
+}
+img,
+picture {
+  max-width:100%;
+  display: block;
+}
+input,button,textarea,select{
+  font: inherit;
+}
+
+h1 {
+  display: block;
+  font-size: var(--h1-font-size);
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+::selection {
+  color: rgb(0, 0, 0);
+  background: hsl(161, 100%, 93%);
+}
+
+body {
+ 
+  font-family: var(--body-font);
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  line-height: var(--line-height);
+  background-color: var(--bg-color);
+  background-image: url("../assets/pictures/bg1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  outline: none;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  line-height:1.5;
+  min-height:100vh;
+  text-align:justify;
+}
+
+ol,
+ul,li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*XXXXXXXXXXX X-LARGE LAPTOP-DESKTOP SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1824px){
+    
+    html {
+        font-size: 19px;
+      }
+
+}
+
+/*XXXXXXXXXXX LARGE LAPTOP-DESKTOP SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1624px){
+    
+    html {
+        font-size: 19px;
+      }
+
+
+}
+
+/*XXXXXXXXXXX NORMAL LAPTOP-DESKTOP SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1424px){
+
+    html {
+        font-size: 18px;
+      }
+    
+
+}
+
+
+/*XXXXXXXXXXX X-LARGE TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1299px){
+    
+    html {
+        font-size: 17px;
+      }
+
+}
+
+/*XXXXXXXXXXX LARGE TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1024px){
+
+    html {
+        font-size: 17px;
+      }
+
+}
+
+/*XXXXXXXXXXX NORMAL TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 800px){
+
+    html {
+        font-size: 16px;
+      }
+    
+}
+
+
+/*XXXXXXXXXXX SMALL TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 690px){
+
+    html {
+        font-size: 16px;
+      }
+    
+}
+
+/*XXXXXXXXXXX LARGE PHONE SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 595px){
+    
+    html {
+        font-size: 15px;
+      }
+
+}
+
+
+/*XXXXXXXXXXX NORMAL PHONE SCREEN XXXXXXXXXXXXXX*/
+@media only screen and (max-width : 480px){
+    
+    html {
+        font-size: 14px;
+      }
+}
+
+/*XXXXXXXXXXX SMALL PHONE SCREEN XXXXXXXXXXXXXX*/
+@media only screen and (max-width : 320px){
+    
+    html {
+        font-size: 13px;
+      }
+}

@@ -1,0 +1,172 @@
+/* XXXXXXXXXXXXXXXXXXXX for SocialMedia.js XXXXXXXXXXXXXXXXXXXXXX*/
+
+  
+  .wrapper {
+    display: inline-flex;
+    flex-direction: column;  
+    height: 100%;
+    justify-content: flex-start;
+
+
+
+  }
+  
+  #social-main-container{
+    border:px solid blue;
+    margin: auto 0;
+    height: 100%;
+    text-align:end;
+
+  }
+  .wrapper .icon {
+    background: linear-gradient(-90deg, rgba(121,122,121,1) 0%, rgba(31,31,31,1) 100%);
+    border-radius: 50%;
+    padding-top:0.5rem;
+    padding-right:0.2rem;
+    margin:0.4rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrap {
+    padding-right:0.8rem;
+  }
+  
+  
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .linkedin:hover,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip::before {
+    background: #0e76a8;
+    color: var(--text-color);
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background: #171515;
+    color: var(--text-color);
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  
+    color: #ffffff;
+  }
+  
+  
+  .social-media-icons-color{
+    color:var(--text-color);
+    padding-bottom:5px;
+  }
+  
+  .line {
+    width: 4px;
+    height: 5vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #444343 25%, #444343 45%, #444343 55%, #444343 75%, rgba(255, 0, 0, 0) 100%);
+    margin: 3px;
+    display:inline-block;
+  }
+  .social-media-text{
+    font-variant-caps:all-petite-caps;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    margin-left: 3px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:0.75rem;
+  
+  }
+  
+  .social-media-line{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+  /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  X             HOME MEDIA QUERIES SETTING                 X   
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/* XLarge @media only screen and (max-width: 1399px) */
+/* X-Large devices (large desktops, 1200px and up) (min-width: 1200px) and   */
+/****************** X-LARGE ********************/
+@media only screen and (max-width: 1399px) {
+    
+ 
+}
+
+
+/* Large @media only screen and  (max-width: 1199px) */
+/* Large devices (desktops, 992px and up) (min-width: 991px) and */
+/******************* LARGE *************************/
+@media only screen and  (max-width: 1199px) {
+
+ 
+}
+
+
+
+
+
+/* Medium @media only screen and (max-width: 992px) */
+/* Medium devices (tablets, 768px and up) and (min-width: 769px) */
+/******************* MEDIUM *************************/
+@media only screen and (max-width: 992px) {
+ 
+
+}
+
+
+
+
+
+
+/* Small @media only screen  and (max-width: 768px) */
+/*  Small devices (landscape phones, 576px and up) and (min-width: 577px) */
+/************************* SMALL ******************************/
+@media only screen  and (max-width: 768px) {
+  
+
+
+}/*FINISH OF SMALL MEDIA QUERY */
+
+
+
+
+
+/* XSmall @media only screen  and (max-width: 576px) */
+/* X-Small devices (portrait phones, less than 576px) and (min-width: 480px) */
+/*************************** X-SMALL ********************************/
+@media only screen  and (max-width: 576px) {
+
+  
+}
+
+
+
+
+
+/* XXSmall @media only screen and (max-width: 479px) */
+/* XX-Small devices (portrait phones, less than 576px) */
+/******************* XX-SMALL **************************/
+@media only screen and (max-width: 479px) {
+  
+  
+}
+  

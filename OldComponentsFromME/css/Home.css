@@ -1,0 +1,33 @@
+/*XXXXXXXXXXXXX Home.js XXXXXXXXXXXXXXXXXXX*/
+
+#home-container {
+    width: 100%;
+    height: 90vh;
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #home-container .home-container-items{
+    border: 1px solid red;
+    height: 100%;
+
+  }
+  #home-container .home-container-picture{
+    width:55%;
+  }
+
+  #home-container .home-container-card{
+    width: 45%;
+  }
+
+
+  /*.home-social-media-comp{
+    border: 1px solid blue;
+    position:absolute;
+    right:0;
+    top:10.7vh;
+    height: 80vh;
+  }*/

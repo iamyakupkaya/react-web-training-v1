@@ -1,0 +1,11 @@
+/*XXXXXXXXXXXXXXXXX this App.css for App.js XXXXXXXXXXXXXXXXX*/
+
+
+.app__main-container{ 
+    border: 3px solid orange;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}

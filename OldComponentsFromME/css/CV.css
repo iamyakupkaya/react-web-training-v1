@@ -1,0 +1,109 @@
+
+/* ********************* for CV.js ****************************/
+.cv-btn-container{
+    position:fixed;
+    bottom: 1.5vh;
+    left: 0.8vw;
+}
+
+.cv-btn-container button {
+    border-radius: 100%;
+    width:calc(100% + 1.5rem);
+    display: inline-block;
+    background: rgb(121,122,121);
+    background: linear-gradient(-90deg, rgba(121,122,121,1) 0%, rgba(31,31,31,1) 100%);  
+}
+
+.cv-btn-container div {
+    text-align: center;
+    text-decoration: none;
+    font-weight: var(--font-bolder);
+}
+
+
+.cv-btn-container button:hover {
+    box-shadow: 5px 10px 60px rgb(255, 0, 0);
+    transition: all 0.4s;
+
+}
+/************* SMALL *****************/
+@media screen and (max-width: 992px) { 
+   
+        .cv-btn-container button {
+            width:calc(100% + 1.25rem);
+        }
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  X             HOME MEDIA QUERIES SETTING                 X   
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/* XLarge @media only screen and (max-width: 1399px) */
+/* X-Large devices (large desktops, 1200px and up) (min-width: 1200px) and   */
+/****************** X-LARGE ********************/
+@media only screen and (max-width: 1399px) {
+    
+ 
+}
+
+
+/* Large @media only screen and  (max-width: 1199px) */
+/* Large devices (desktops, 992px and up) (min-width: 991px) and */
+/******************* LARGE *************************/
+@media only screen and  (max-width: 1199px) {
+
+ 
+}
+
+
+
+
+
+/* Medium @media only screen and (max-width: 992px) */
+/* Medium devices (tablets, 768px and up) and (min-width: 769px) */
+/******************* MEDIUM *************************/
+@media only screen and (max-width: 992px) {
+ 
+
+}
+
+
+
+
+
+
+/* Small @media only screen  and (max-width: 768px) */
+/*  Small devices (landscape phones, 576px and up) and (min-width: 577px) */
+/************************* SMALL ******************************/
+@media only screen  and (max-width: 768px) {
+  
+
+
+}/*FINISH OF SMALL MEDIA QUERY */
+
+
+
+
+
+/* XSmall @media only screen  and (max-width: 576px) */
+/* X-Small devices (portrait phones, less than 576px) and (min-width: 480px) */
+/*************************** X-SMALL ********************************/
+@media only screen  and (max-width: 576px) {
+
+  
+}
+
+
+
+
+
+/* XXSmall @media only screen and (max-width: 479px) */
+/* XX-Small devices (portrait phones, less than 576px) */
+/******************* XX-SMALL **************************/
+@media only screen and (max-width: 479px) {
+  
+  
+}
+  

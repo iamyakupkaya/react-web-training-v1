@@ -1,0 +1,205 @@
+/*********************this Navigation.css file make style Navigation.js *******************/
+
+.navigation-container {
+  position:sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+  .navigation-flex {
+  padding-top: 10px;
+    height: 90px;
+    display: flex;
+    font-weight: var(--font-bolder);
+    font-size:calc(var(--text));
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 0px 4.25vw;
+  
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #444343 25%, #444343 45%, #444343 50%, #444343 55%, #444343 75%, rgba(255, 0, 0, 0) 100%);
+    background-color: red;
+  
+  }
+  
+  .navigation-flex button {
+    display:block;
+    font-variant-caps: all-petite-caps;
+    border-radius:100%;
+    padding-top: 8px;
+    margin-left: 20px;
+    text-align: center;
+    width:50px;
+    height:50px;
+    background: linear-gradient(-90deg, rgba(121,122,121,1) 0%, rgba(31,31,31,1) 100%);
+    box-shadow: 0 0 25px rgba(64, 65, 64, 0.89);
+  
+   
+  }
+  .navigation-flex button:hover{
+    box-shadow: 5px 10px 60px rgb(255, 0, 0);
+    transition: all 0.5s;
+  }
+  
+  .navigation-items {
+    position: relative;
+    height:70px;
+    width:90px;
+    background-color: rgba(255,255,255,0); /*transparent*/
+  
+  }
+
+ 
+  
+  .navigation-button-text {
+    font-variant-caps: all-petite-caps;
+    position: absolute;
+    font-weight: var(--font-bolder);
+    font-size:1.2rem;
+    bottom:-14px;
+    left:0;
+    width: 90px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0); /*transparent*/
+  
+  }
+
+
+  
+  .navigation-container hr {
+    height: 7.5px; 
+    margin:0px;
+    border-style: solid; 
+    border-color: rgb(255, 0, 0, 0); 
+    border-width: 1px 0 0 0; 
+    border-radius: 50px; 
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #444343 25%, #444343 45%,  #ff0000 50%,  #444343 55%, #444343 75%, rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    animation: nav-hr 5s infinite;
+  
+  }
+  #nav-wrapper{
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
+  
+/*
+.navigation-container {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navigation-container ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.navigation-container ul li {
+  display: inline-block;
+}
+
+.navigation-container ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgba(122, 0, 0, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.navigation-container ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+
+  background-color: rgba(255, 255, 255, 0.4);
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+
+
+*/
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  X             HOME MEDIA QUERIES SETTING                 X   
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/* XLarge @media only screen and (max-width: 1399px) */
+/* X-Large devices (large desktops, 1200px and up) (min-width: 1200px) and   */
+/****************** X-LARGE ********************/
+@media only screen and (max-width: 1399px) {
+    
+ 
+}
+
+
+/* Large @media only screen and  (max-width: 1199px) */
+/* Large devices (desktops, 992px and up) (min-width: 991px) and */
+/******************* LARGE *************************/
+@media only screen and  (max-width: 1199px) {
+
+ 
+}
+
+
+
+
+
+/* Medium @media only screen and (max-width: 992px) */
+/* Medium devices (tablets, 768px and up) and (min-width: 769px) */
+/******************* MEDIUM *************************/
+@media only screen and (max-width: 992px) {
+ 
+
+}
+
+
+
+
+
+
+/* Small @media only screen  and (max-width: 768px) */
+/*  Small devices (landscape phones, 576px and up) and (min-width: 577px) */
+/************************* SMALL ******************************/
+@media only screen  and (max-width: 768px) {
+  
+
+
+}/*FINISH OF SMALL MEDIA QUERY */
+
+
+
+
+
+/* XSmall @media only screen  and (max-width: 576px) */
+/* X-Small devices (portrait phones, less than 576px) and (min-width: 480px) */
+/*************************** X-SMALL ********************************/
+@media only screen  and (max-width: 576px) {
+
+  
+}
+
+
+
+
+
+/* XXSmall @media only screen and (max-width: 479px) */
+/* XX-Small devices (portrait phones, less than 576px) */
+/******************* XX-SMALL **************************/
+@media only screen and (max-width: 479px) {
+  
+  
+}
+  

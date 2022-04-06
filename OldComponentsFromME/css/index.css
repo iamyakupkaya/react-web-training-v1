@@ -1,0 +1,34 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  X              ALL CSS FILES IMPORTING AREA                 X   
+  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/ 
+
+/************** Root CSS ***************/
+@import "./Root.css";
+
+/************** App CSS ***************/
+@import "./App.css";
+
+/************** Navigation CSS ***************/
+@import "./Navigation.css";
+
+
+/************** Home CSS ***************/
+@import "./Home.css";
+
+/************** Card CSS ***************/
+@import "./Card.css";
+
+/************** HomeSocialMedia CSS ***************/
+@import "./SocialMedia.css";
+
+/************** CV CSS ***************/
+@import "./CV.css";
+
+
+
+/*
+CSS de kodlar baştan başlar okumaya ama bir sayfada her zaman ilk okunun import işlemidir bu yüzden
+import olunan dosyaların kodları import edenin  kodlarından önce çalışır. Bu yüzden import eden dosya ile import edilen
+dosyada aynı kodlar varsa en son geçerli olur mantığından dolayı import eden dosyanın kodları import edilen dosyanın
+kodlarını ezer yani override eder.
+*/

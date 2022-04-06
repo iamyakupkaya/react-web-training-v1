@@ -1,0 +1,335 @@
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  X             GENERAL MEDIA QUERIES SETTING                 X   
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+
+/* XLarge @media only screen and (max-width: 1399px) */
+/* X-Large devices (large desktops, 1200px and up) (min-width: 1200px) and   */
+/****************** X-LARGE ********************/
+@media only screen and (max-width: 1399px) {
+    
+    html{
+        font-size:19px;
+      }
+    
+    :root {
+        /*========== Font and typography ==========*/
+        --biggest-font-size: 3rem;
+        --bigger-font-size: 2.5rem;
+        --h1-font-size: 2rem;
+        --h2-font-size: 1.75rem;
+        --h3-font-size: 1.5rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.75rem;
+        --smaller-font-size: 0.5rem;
+    
+        --line-height: 1.5;
+      }
+    
+      /*=============== BASE ===============*/
+      body {
+        font-size: var(--normal-font-size);
+        line-height: var(--line-height);
+      }
+      h1 {
+        display: block;
+        font-size: var(--h1-font-size);
+        font-weight: bold;
+      }
+      h2 {
+        display: block;
+        font-size: var(--h2-font-size);
+        font-weight: bold;
+      }
+      h3 {
+        display: block;
+        font-size: var(--h3-font-size);
+        font-weight: bold;
+      }
+      .main-container{
+        width: 86%;
+        margin:0 auto;
+
+      }
+   
+  }
+
+  
+/* Large @media only screen and  (max-width: 1199px) */
+/* Large devices (desktops, 992px and up) (min-width: 991px) and */
+/******************* LARGE *************************/
+@media only screen and  (max-width: 1199px) {
+    html {
+      font-size: 18px;
+    }
+  
+    :root {
+      /*========== Font and typography ==========*/
+      --biggest-font-size: 3rem;
+      --bigger-font-size: 2.5rem;
+      --h1-font-size: 2rem;
+      --h2-font-size: 1.75rem;
+      --h3-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.75rem;
+      --smaller-font-size: 0.5rem;
+  
+      --line-height: 1.5;
+    }
+  
+    /*=============== BASE ===============*/
+    body {
+      font-size: var(--normal-font-size);
+      line-height: var(--line-height);
+    }
+    h1 {
+      display: block;
+      font-size: var(--h1-font-size);
+      font-weight: bold;
+    }
+    h2 {
+      display: block;
+      font-size: var(--h2-font-size);
+      font-weight: bold;
+    }
+    h3 {
+      display: block;
+      font-size: var(--h3-font-size);
+      font-weight: bold;
+    }
+  
+    .main-container {
+      width:88%;
+      margin: 0 auto;
+      border: 2px solid red;
+    }
+  
+   
+  }
+
+  
+
+
+
+/* Medium @media only screen and (max-width: 992px) */
+/* Medium devices (tablets, 768px and up) and (min-width: 769px) */
+/******************* MEDIUM *************************/
+@media only screen and (max-width: 992px) {
+    html {
+      font-size: 17px;
+    }
+  
+    :root {
+      /*========== Font and typography ==========*/
+      --biggest-font-size: 3rem;
+      --bigger-font-size: 2.5rem;
+      --h1-font-size: 2rem;
+      --h2-font-size: 1.75rem;
+      --h3-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.75rem;
+      --smaller-font-size: 0.5rem;
+  
+      --line-height: 1.5;
+    }
+  
+    /*=============== BASE ===============*/
+    /*body {
+      font-size: var(--normal-font-size);
+      line-height: var(--line-height);
+    }*/
+  
+    h1 {
+      display: block;
+      font-size: var(--h1-font-size);
+      font-weight: bold;
+    }
+    h2 {
+      display: block;
+      font-size: var(--h2-font-size);
+      font-weight: bold;
+    }
+    h3 {
+      display: block;
+      font-size: var(--h3-font-size);
+      font-weight: bold;
+    }
+    .main-container {
+      width: 90%;
+      margin: 0 auto;
+      border: 2px solid red;
+    }
+  }
+
+  
+
+
+
+
+/* Small @media only screen  and (max-width: 768px) */
+/*  Small devices (landscape phones, 576px and up) and (min-width: 577px) */
+/************************* SMALL ******************************/
+@media only screen  and (max-width: 768px) {
+    
+
+    html{
+      font-size:16px;
+    }
+    
+    :root {
+      /*========== Font and typography ==========*/
+      --biggest-font-size: 3rem;
+      --bigger-font-size: 2.5rem;
+      --h1-font-size: 2rem;
+      --h2-font-size: 1.75rem;
+      --h3-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.75rem;
+      --smaller-font-size: 0.5rem;
+  
+      --line-height: 1.5;
+    }
+  
+    /*=============== BASE ===============*/
+    body {
+      font-size: var(--normal-font-size);
+      line-height: var(--line-height);
+    }
+    h1 {
+      display: block;
+      font-size: var(--h1-font-size);
+      font-weight: bold;
+    }
+    h2 {
+      display: block;
+      font-size: var(--h2-font-size);
+      font-weight: bold;
+    }
+    h3 {
+      display: block;
+      font-size: var(--h3-font-size);
+      font-weight: bold;
+    }
+      .main-container{
+        width: 92%;
+        margin:0 auto;
+        border:2px solid red;
+  
+      }
+    
+      /************ CV.js ************/
+  
+
+
+}/*FINISH OF SMALL MEDIA QUERY */
+
+
+
+
+
+/* XSmall @media only screen  and (max-width: 576px) */
+/* X-Small devices (portrait phones, less than 576px) and (min-width: 480px) */
+/*************************** X-SMALL ********************************/
+@media only screen  and (max-width: 576px) {
+
+    html {
+      font-size: 15px;
+    }
+  
+    :root {
+      /*========== Font and typography ==========*/
+      --biggest-font-size: 3rem;
+      --bigger-font-size: 2.5rem;
+      --h1-font-size: 2rem;
+      --h2-font-size: 1.75rem;
+      --h3-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.75rem;
+      --smaller-font-size: 0.5rem;
+  
+      --line-height: 1.5;
+    }
+  
+    /*=============== BASE ===============*/
+    body {
+      font-size: var(--normal-font-size);
+      line-height: var(--line-height);
+    }
+    h1 {
+      display: block;
+      font-size: var(--h1-font-size);
+      font-weight: bold;
+    }
+    h2 {
+      display: block;
+      font-size: var(--h2-font-size);
+      font-weight: bold;
+    }
+    h3 {
+      display: block;
+      font-size: var(--h3-font-size);
+      font-weight: bold;
+    }
+  
+    .main-container {
+      width: 94%;
+      margin: 0 auto;
+      border: 2px solid red;
+    }
+  }
+
+
+  
+
+
+/* XXSmall @media only screen and (max-width: 479px) */
+/* XX-Small devices (portrait phones, less than 576px) */
+/******************* XX-SMALL **************************/
+@media only screen and (max-width: 479px) {
+    html {
+      font-size: 14px;
+    }
+  
+    :root {
+      /*========== Font and typography ==========*/
+      --biggest-font-size: 3rem;
+      --bigger-font-size: 2.5rem;
+      --h1-font-size: 2rem;
+      --h2-font-size: 1.75rem;
+      --h3-font-size: 1.5rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.75rem;
+      --smaller-font-size: 0.5rem;
+  
+      --line-height: 1.5;
+    }
+  
+    /*=============== BASE ===============*/
+    body {
+      font-size: var(--normal-font-size);
+      line-height: var(--line-height);
+    }
+    h1 {
+      display: block;
+      font-size: var(--h1-font-size);
+      font-weight: bold;
+    }
+    h2 {
+      display: block;
+      font-size: var(--h2-font-size);
+      font-weight: bold;
+    }
+    h3 {
+      display: block;
+      font-size: var(--h3-font-size);
+      font-weight: bold;
+    }
+  
+    .main-container {
+      width: 96%;
+      margin: 0 auto;
+      border: 2px solid red;
+    }
+  }

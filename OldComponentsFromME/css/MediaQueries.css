@@ -1,0 +1,82 @@
+/*XXXXXXXXXXX X-LARGE LAPTOP-DESKTOP SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1824px){
+    
+      /*STYLE*/
+
+}
+
+/*XXXXXXXXXXX LARGE LAPTOP-DESKTOP SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1624px){
+    
+    /*STYLE*/
+}
+
+/*XXXXXXXXXXX NORMAL LAPTOP-DESKTOP SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1424px){
+    
+      /*STYLE*/
+
+}
+
+
+/*XXXXXXXXXXX X-LARGE TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1299px){
+    
+      /*STYLE*/
+
+}
+
+/*XXXXXXXXXXX LARGE TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 1024px){
+    
+       /*STYLE*/
+
+}
+
+/*XXXXXXXXXXX NORMAL TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 800px){
+    
+        /*STYLE*/
+
+}
+
+
+/*XXXXXXXXXXX SMALL TABLET SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 690px){
+    
+     /*STYLE*/
+
+}
+
+/*XXXXXXXXXXX LARGE PHONE SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 595px){
+    
+      /*STYLE*/
+
+}
+
+
+/*XXXXXXXXXXX NORMAL PHONE SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 480px){
+    
+     /*STYLE*/
+
+}
+
+/*XXXXXXXXXXX SMALL PHONE SCREEN XXXXXXXXXXXXXX*/
+@media only screen 
+and (max-width : 320px){
+        
+    /*STYLE*/
+
+
+}
